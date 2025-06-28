@@ -1,0 +1,46 @@
+*{
+    /* margin: 0 !important; */
+    /* padding: 0 !important; */
+    /* box-sizing: border-box !important; */
+}
+
+body{
+   
+    position: relative;
+    top: 30px;
+}
+.firstthem{
+    margin:5px 100px !important;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 10px;
+   
+}
+.Theminfo{
+    padding: 5px;
+    transition: .4s linear;
+}
+.infocrasas{
+    transition: .4s linear;
+}
+.infocrasas:hover{
+    box-shadow: 0px 4px 15px rgba(9, 78, 125, 0.512);
+}
+.Theminfo:hover{
+    background-color: rgba(128, 128, 128, 0.15) !important;
+}
+@media (min-width:200px) and (max-width: 800px) {
+    .firstthem{
+        border: none;
+        /* background-coxlor: lightblue; */
+        margin: 0px !important;
+    }
+    .thheiamngg{
+        top: -30px !important;
+    }
+    .thheiamngg img{
+        position: relative;
+        top: auto;
+        width:30% !important;
+    }
+}
